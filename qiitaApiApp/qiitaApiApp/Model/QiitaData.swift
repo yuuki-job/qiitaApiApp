@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import Alamofire
+import AlamofireImage
 
 class QiitaData:NSObject {
     var userImage:String?
@@ -23,6 +25,8 @@ class QiitaData:NSObject {
         print(usersData)
         
         self.userName = usersData["name"] as? String
+        
+        
         self.userImage = usersData["profile_image_url"] as? String
         
         self.website_url = usersData["website_url"] as? String

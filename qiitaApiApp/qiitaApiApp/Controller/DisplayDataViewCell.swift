@@ -6,7 +6,8 @@
 //
 
 import UIKit
-
+import Alamofire
+import AlamofireImage
 class DisplayDataViewCell: UITableViewCell {
     
     @IBOutlet weak var userImageView: UIImageView!
@@ -30,7 +31,15 @@ class DisplayDataViewCell: UITableViewCell {
         titleLabel.text = qiitaData.title
         userNameLabel.text = qiitaData.userName
         likeCountLabel.text = String(qiitaData.likeCount ?? 0)
-        
-        
+        //if let 追加しないと上手くいかなかった。オプショナルバイディングしてのエラーじゃなかった。なぜかわからん
+        if let userImage = qiitaData.userImage{
+            AF.request(userImage).responseImage { response in
+                
+                
+                if case .success(let image) = response.result {
+                    self.userImageView.image = image
+                }
+            }
+        }
     }
 }
