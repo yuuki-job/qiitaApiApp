@@ -7,16 +7,16 @@
 
 import Foundation
 
-class QiitaData {
-    var userIMage:String
+class QiitaData:NSObject {
+    var userImage:String
     var title:String
     var userName:String
     var likeCount:Int
     var website_url:String
     
     
-    init(userIMage:String,title:String,userName:String,likeCount:Int,website_url:String) {
-        self.userIMage = userIMage
+    init(userImage:String,title:String,userName:String,likeCount:Int,website_url:String) {
+        self.userImage = userImage
         self.title = title
         self.userName = userName
         self.likeCount = likeCount

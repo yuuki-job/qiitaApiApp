@@ -18,6 +18,8 @@
 		52ED8B0625B1304800D67782 /* qiitaApiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8B0525B1304800D67782 /* qiitaApiAppTests.swift */; };
 		52ED8B1125B1304800D67782 /* qiitaApiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8B1025B1304800D67782 /* qiitaApiAppUITests.swift */; };
 		52ED8B3925B145B500D67782 /* QiitaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8B3825B145B500D67782 /* QiitaData.swift */; };
+		52ED8B4225B14A0500D67782 /* DisplayDataViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8B4025B14A0500D67782 /* DisplayDataViewCell.swift */; };
+		52ED8B4325B14A0500D67782 /* DisplayDataViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ED8B4125B14A0500D67782 /* DisplayDataViewCell.xib */; };
 		7325F9CD798174725D0EF42F /* Pods_qiitaApiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47533D9E101ACFB4CFB2AC6C /* Pods_qiitaApiAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		52ED8B1025B1304800D67782 /* qiitaApiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiitaApiAppUITests.swift; sourceTree = "<group>"; };
 		52ED8B1225B1304800D67782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52ED8B3825B145B500D67782 /* QiitaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaData.swift; sourceTree = "<group>"; };
+		52ED8B4025B14A0500D67782 /* DisplayDataViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDataViewCell.swift; sourceTree = "<group>"; };
+		52ED8B4125B14A0500D67782 /* DisplayDataViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayDataViewCell.xib; sourceTree = "<group>"; };
 		8B4CAE66C88E5FE33BC645B1 /* Pods-qiitaApiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiAppTests.release.xcconfig"; path = "Target Support Files/Pods-qiitaApiAppTests/Pods-qiitaApiAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F5236FCBA80847042E27122 /* Pods_qiitaApiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaApiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5061B28A991995415AFD99 /* Pods_qiitaApiApp_qiitaApiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaApiApp_qiitaApiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +140,8 @@
 				52ED8AF725B1304700D67782 /* Assets.xcassets */,
 				52ED8AF925B1304700D67782 /* LaunchScreen.storyboard */,
 				52ED8AFC25B1304700D67782 /* Info.plist */,
+				52ED8B4025B14A0500D67782 /* DisplayDataViewCell.swift */,
+				52ED8B4125B14A0500D67782 /* DisplayDataViewCell.xib */,
 			);
 			path = qiitaApiApp;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 				52ED8AFB25B1304700D67782 /* LaunchScreen.storyboard in Resources */,
 				52ED8AF825B1304700D67782 /* Assets.xcassets in Resources */,
 				52ED8AF625B1304400D67782 /* Main.storyboard in Resources */,
+				52ED8B4325B14A0500D67782 /* DisplayDataViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +442,7 @@
 			files = (
 				52ED8B3925B145B500D67782 /* QiitaData.swift in Sources */,
 				52ED8AF325B1304400D67782 /* SearchlistViewController.swift in Sources */,
+				52ED8B4225B14A0500D67782 /* DisplayDataViewCell.swift in Sources */,
 				52ED8AEF25B1304400D67782 /* AppDelegate.swift in Sources */,
 				52ED8AF125B1304400D67782 /* SceneDelegate.swift in Sources */,
 			);
