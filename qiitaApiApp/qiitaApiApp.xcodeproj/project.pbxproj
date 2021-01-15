@@ -140,8 +140,6 @@
 				52ED8AF725B1304700D67782 /* Assets.xcassets */,
 				52ED8AF925B1304700D67782 /* LaunchScreen.storyboard */,
 				52ED8AFC25B1304700D67782 /* Info.plist */,
-				52ED8B4025B14A0500D67782 /* DisplayDataViewCell.swift */,
-				52ED8B4125B14A0500D67782 /* DisplayDataViewCell.xib */,
 			);
 			path = qiitaApiApp;
 			sourceTree = "<group>";
@@ -184,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				52ED8AF225B1304400D67782 /* SearchlistViewController.swift */,
+				52ED8B4125B14A0500D67782 /* DisplayDataViewCell.xib */,
+				52ED8B4025B14A0500D67782 /* DisplayDataViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

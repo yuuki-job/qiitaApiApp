@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ocz-xK-OxV">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="240" width="414" height="656"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="147" id="6IP-O4-fjb">
@@ -30,18 +30,40 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n4R-TB-L03">
+                                <rect key="frame" x="103.5" y="111" width="207" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCH-82-dsk">
+                                <rect key="frame" x="155" y="160" width="104" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="検索"/>
+                                <connections>
+                                    <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HkO-Sy-b9q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ocz-xK-OxV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bq5-BG-iCc"/>
-                            <constraint firstItem="ocz-xK-OxV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="P4w-QI-wdd"/>
-                            <constraint firstItem="ocz-xK-OxV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ka1-cD-p1y"/>
-                            <constraint firstAttribute="bottom" secondItem="ocz-xK-OxV" secondAttribute="bottom" id="pS8-FI-kMB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MCH-82-dsk" secondAttribute="trailing" constant="155" id="082-M1-i4p"/>
+                            <constraint firstItem="MCH-82-dsk" firstAttribute="top" secondItem="n4R-TB-L03" secondAttribute="bottom" constant="15" id="2bi-87-jdM"/>
+                            <constraint firstItem="ocz-xK-OxV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2fS-qC-St0"/>
+                            <constraint firstItem="n4R-TB-L03" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="9Fn-Lh-PRB"/>
+                            <constraint firstItem="MCH-82-dsk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="EMm-j9-RVa"/>
+                            <constraint firstAttribute="bottom" secondItem="ocz-xK-OxV" secondAttribute="bottom" id="Zqe-Zc-xgd"/>
+                            <constraint firstItem="n4R-TB-L03" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="alr-9K-Smy"/>
+                            <constraint firstItem="ocz-xK-OxV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="imi-SQ-gnG"/>
+                            <constraint firstItem="ocz-xK-OxV" firstAttribute="top" secondItem="MCH-82-dsk" secondAttribute="bottom" constant="50" id="lxr-mF-Jzo"/>
+                            <constraint firstItem="n4R-TB-L03" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103.5" id="o7A-h4-PKf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n4R-TB-L03" secondAttribute="trailing" constant="103.5" id="poe-hk-Vbj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mfj-2D-j6t"/>
                     <connections>
+                        <outlet property="searchButtonConfiguration" destination="MCH-82-dsk" id="eKe-PJ-sD6"/>
+                        <outlet property="searchTextField" destination="n4R-TB-L03" id="JzM-vK-1Xd"/>
                         <outlet property="tableView" destination="ocz-xK-OxV" id="iLr-eM-rda"/>
                     </connections>
                 </viewController>
