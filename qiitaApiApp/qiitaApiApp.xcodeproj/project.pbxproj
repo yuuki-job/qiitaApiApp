@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EB9987E6A5C17627B038ED /* Pods_qiitaApiApp_qiitaApiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5061B28A991995415AFD99 /* Pods_qiitaApiApp_qiitaApiAppUITests.framework */; };
+		239BB252F33DD83BFF4DD67C /* Pods_qiitaApiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5236FCBA80847042E27122 /* Pods_qiitaApiApp.framework */; };
+		52ED8AEF25B1304400D67782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8AEE25B1304400D67782 /* AppDelegate.swift */; };
+		52ED8AF125B1304400D67782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8AF025B1304400D67782 /* SceneDelegate.swift */; };
+		52ED8AF325B1304400D67782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8AF225B1304400D67782 /* ViewController.swift */; };
+		52ED8AF625B1304400D67782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED8AF425B1304400D67782 /* Main.storyboard */; };
+		52ED8AF825B1304700D67782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ED8AF725B1304700D67782 /* Assets.xcassets */; };
+		52ED8AFB25B1304700D67782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED8AF925B1304700D67782 /* LaunchScreen.storyboard */; };
+		52ED8B0625B1304800D67782 /* qiitaApiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8B0525B1304800D67782 /* qiitaApiAppTests.swift */; };
+		52ED8B1125B1304800D67782 /* qiitaApiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8B1025B1304800D67782 /* qiitaApiAppUITests.swift */; };
+		7325F9CD798174725D0EF42F /* Pods_qiitaApiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47533D9E101ACFB4CFB2AC6C /* Pods_qiitaApiAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ED8B0225B1304800D67782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ED8AE325B1304400D67782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ED8AEA25B1304400D67782;
+			remoteInfo = qiitaApiApp;
+		};
+		52ED8B0D25B1304800D67782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ED8AE325B1304400D67782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ED8AEA25B1304400D67782;
+			remoteInfo = qiitaApiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04368AFCB61D934C3ACCD6F4 /* Pods-qiitaApiApp-qiitaApiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiApp-qiitaApiAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-qiitaApiApp-qiitaApiAppUITests/Pods-qiitaApiApp-qiitaApiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E72218226ECF3134CD07250 /* Pods-qiitaApiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiApp.release.xcconfig"; path = "Target Support Files/Pods-qiitaApiApp/Pods-qiitaApiApp.release.xcconfig"; sourceTree = "<group>"; };
+		1B3DF55DF861E0A48444BAEE /* Pods-qiitaApiApp-qiitaApiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiApp-qiitaApiAppUITests.release.xcconfig"; path = "Target Support Files/Pods-qiitaApiApp-qiitaApiAppUITests/Pods-qiitaApiApp-qiitaApiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FC5253D89905493365F9E5B /* Pods-qiitaApiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiAppTests.debug.xcconfig"; path = "Target Support Files/Pods-qiitaApiAppTests/Pods-qiitaApiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3066AF7E7FDC4433C874EFF5 /* Pods-qiitaApiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiApp.debug.xcconfig"; path = "Target Support Files/Pods-qiitaApiApp/Pods-qiitaApiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		47533D9E101ACFB4CFB2AC6C /* Pods_qiitaApiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaApiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED8AEB25B1304400D67782 /* qiitaApiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiitaApiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED8AEE25B1304400D67782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52ED8AF025B1304400D67782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52ED8AF225B1304400D67782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52ED8AF525B1304400D67782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52ED8AF725B1304700D67782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52ED8AFA25B1304700D67782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52ED8AFC25B1304700D67782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED8B0125B1304800D67782 /* qiitaApiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiitaApiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED8B0525B1304800D67782 /* qiitaApiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiitaApiAppTests.swift; sourceTree = "<group>"; };
+		52ED8B0725B1304800D67782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED8B0C25B1304800D67782 /* qiitaApiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiitaApiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED8B1025B1304800D67782 /* qiitaApiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiitaApiAppUITests.swift; sourceTree = "<group>"; };
+		52ED8B1225B1304800D67782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4CAE66C88E5FE33BC645B1 /* Pods-qiitaApiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaApiAppTests.release.xcconfig"; path = "Target Support Files/Pods-qiitaApiAppTests/Pods-qiitaApiAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F5236FCBA80847042E27122 /* Pods_qiitaApiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaApiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5061B28A991995415AFD99 /* Pods_qiitaApiApp_qiitaApiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaApiApp_qiitaApiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ED8AE825B1304400D67782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239BB252F33DD83BFF4DD67C /* Pods_qiitaApiApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED8AFE25B1304800D67782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7325F9CD798174725D0EF42F /* Pods_qiitaApiAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED8B0925B1304800D67782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EB9987E6A5C17627B038ED /* Pods_qiitaApiApp_qiitaApiAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2599ED3B0A959B052E0C3168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F5236FCBA80847042E27122 /* Pods_qiitaApiApp.framework */,
+				9F5061B28A991995415AFD99 /* Pods_qiitaApiApp_qiitaApiAppUITests.framework */,
+				47533D9E101ACFB4CFB2AC6C /* Pods_qiitaApiAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52ED8AE225B1304400D67782 = {
+			isa = PBXGroup;
+			children = (
+				52ED8AED25B1304400D67782 /* qiitaApiApp */,
+				52ED8B0425B1304800D67782 /* qiitaApiAppTests */,
+				52ED8B0F25B1304800D67782 /* qiitaApiAppUITests */,
+				52ED8AEC25B1304400D67782 /* Products */,
+				AEC7E8524527B9BAAB70ED43 /* Pods */,
+				2599ED3B0A959B052E0C3168 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52ED8AEC25B1304400D67782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ED8AEB25B1304400D67782 /* qiitaApiApp.app */,
+				52ED8B0125B1304800D67782 /* qiitaApiAppTests.xctest */,
+				52ED8B0C25B1304800D67782 /* qiitaApiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ED8AED25B1304400D67782 /* qiitaApiApp */ = {
+			isa = PBXGroup;
+			children = (
+				52ED8AEE25B1304400D67782 /* AppDelegate.swift */,
+				52ED8AF025B1304400D67782 /* SceneDelegate.swift */,
+				52ED8AF225B1304400D67782 /* ViewController.swift */,
+				52ED8AF425B1304400D67782 /* Main.storyboard */,
+				52ED8AF725B1304700D67782 /* Assets.xcassets */,
+				52ED8AF925B1304700D67782 /* LaunchScreen.storyboard */,
+				52ED8AFC25B1304700D67782 /* Info.plist */,
+			);
+			path = qiitaApiApp;
+			sourceTree = "<group>";
+		};
+		52ED8B0425B1304800D67782 /* qiitaApiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ED8B0525B1304800D67782 /* qiitaApiAppTests.swift */,
+				52ED8B0725B1304800D67782 /* Info.plist */,
+			);
+			path = qiitaApiAppTests;
+			sourceTree = "<group>";
+		};
+		52ED8B0F25B1304800D67782 /* qiitaApiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52ED8B1025B1304800D67782 /* qiitaApiAppUITests.swift */,
+				52ED8B1225B1304800D67782 /* Info.plist */,
+			);
+			path = qiitaApiAppUITests;
+			sourceTree = "<group>";
+		};
+		AEC7E8524527B9BAAB70ED43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3066AF7E7FDC4433C874EFF5 /* Pods-qiitaApiApp.debug.xcconfig */,
+				0E72218226ECF3134CD07250 /* Pods-qiitaApiApp.release.xcconfig */,
+				04368AFCB61D934C3ACCD6F4 /* Pods-qiitaApiApp-qiitaApiAppUITests.debug.xcconfig */,
+				1B3DF55DF861E0A48444BAEE /* Pods-qiitaApiApp-qiitaApiAppUITests.release.xcconfig */,
+				2FC5253D89905493365F9E5B /* Pods-qiitaApiAppTests.debug.xcconfig */,
+				8B4CAE66C88E5FE33BC645B1 /* Pods-qiitaApiAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ED8AEA25B1304400D67782 /* qiitaApiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED8B1525B1304800D67782 /* Build configuration list for PBXNativeTarget "qiitaApiApp" */;
+			buildPhases = (
+				961538F74D0E909EFF293FD0 /* [CP] Check Pods Manifest.lock */,
+				52ED8AE725B1304400D67782 /* Sources */,
+				52ED8AE825B1304400D67782 /* Frameworks */,
+				52ED8AE925B1304400D67782 /* Resources */,
+				AE76FFD7F52CB69C90DF5F99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiitaApiApp;
+			productName = qiitaApiApp;
+			productReference = 52ED8AEB25B1304400D67782 /* qiitaApiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ED8B0025B1304800D67782 /* qiitaApiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED8B1825B1304800D67782 /* Build configuration list for PBXNativeTarget "qiitaApiAppTests" */;
+			buildPhases = (
+				85FB35E2EE110B1EEA8C0188 /* [CP] Check Pods Manifest.lock */,
+				52ED8AFD25B1304800D67782 /* Sources */,
+				52ED8AFE25B1304800D67782 /* Frameworks */,
+				52ED8AFF25B1304800D67782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ED8B0325B1304800D67782 /* PBXTargetDependency */,
+			);
+			name = qiitaApiAppTests;
+			productName = qiitaApiAppTests;
+			productReference = 52ED8B0125B1304800D67782 /* qiitaApiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52ED8B0B25B1304800D67782 /* qiitaApiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED8B1B25B1304800D67782 /* Build configuration list for PBXNativeTarget "qiitaApiAppUITests" */;
+			buildPhases = (
+				4A1F94055B77093CA7962706 /* [CP] Check Pods Manifest.lock */,
+				52ED8B0825B1304800D67782 /* Sources */,
+				52ED8B0925B1304800D67782 /* Frameworks */,
+				52ED8B0A25B1304800D67782 /* Resources */,
+				83B120152061A7D9070BC8D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ED8B0E25B1304800D67782 /* PBXTargetDependency */,
+			);
+			name = qiitaApiAppUITests;
+			productName = qiitaApiAppUITests;
+			productReference = 52ED8B0C25B1304800D67782 /* qiitaApiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ED8AE325B1304400D67782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					52ED8AEA25B1304400D67782 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					52ED8B0025B1304800D67782 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 52ED8AEA25B1304400D67782;
+					};
+					52ED8B0B25B1304800D67782 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 52ED8AEA25B1304400D67782;
+					};
+				};
+			};
+			buildConfigurationList = 52ED8AE625B1304400D67782 /* Build configuration list for PBXProject "qiitaApiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52ED8AE225B1304400D67782;
+			productRefGroup = 52ED8AEC25B1304400D67782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ED8AEA25B1304400D67782 /* qiitaApiApp */,
+				52ED8B0025B1304800D67782 /* qiitaApiAppTests */,
+				52ED8B0B25B1304800D67782 /* qiitaApiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ED8AE925B1304400D67782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED8AFB25B1304700D67782 /* LaunchScreen.storyboard in Resources */,
+				52ED8AF825B1304700D67782 /* Assets.xcassets in Resources */,
+				52ED8AF625B1304400D67782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED8AFF25B1304800D67782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED8B0A25B1304800D67782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A1F94055B77093CA7962706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qiitaApiApp-qiitaApiAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B120152061A7D9070BC8D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiitaApiApp-qiitaApiAppUITests/Pods-qiitaApiApp-qiitaApiAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiitaApiApp-qiitaApiAppUITests/Pods-qiitaApiApp-qiitaApiAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qiitaApiApp-qiitaApiAppUITests/Pods-qiitaApiApp-qiitaApiAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FB35E2EE110B1EEA8C0188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qiitaApiAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961538F74D0E909EFF293FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qiitaApiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE76FFD7F52CB69C90DF5F99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiitaApiApp/Pods-qiitaApiApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiitaApiApp/Pods-qiitaApiApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qiitaApiApp/Pods-qiitaApiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ED8AE725B1304400D67782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED8AF325B1304400D67782 /* ViewController.swift in Sources */,
+				52ED8AEF25B1304400D67782 /* AppDelegate.swift in Sources */,
+				52ED8AF125B1304400D67782 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED8AFD25B1304800D67782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED8B0625B1304800D67782 /* qiitaApiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED8B0825B1304800D67782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED8B1125B1304800D67782 /* qiitaApiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ED8B0325B1304800D67782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ED8AEA25B1304400D67782 /* qiitaApiApp */;
+			targetProxy = 52ED8B0225B1304800D67782 /* PBXContainerItemProxy */;
+		};
+		52ED8B0E25B1304800D67782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ED8AEA25B1304400D67782 /* qiitaApiApp */;
+			targetProxy = 52ED8B0D25B1304800D67782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ED8AF425B1304400D67782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ED8AF525B1304400D67782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52ED8AF925B1304700D67782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ED8AFA25B1304700D67782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ED8B1325B1304800D67782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52ED8B1425B1304800D67782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52ED8B1625B1304800D67782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3066AF7E7FDC4433C874EFF5 /* Pods-qiitaApiApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQP7L55495;
+				INFOPLIST_FILE = qiitaApiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.to.qiitaApiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52ED8B1725B1304800D67782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E72218226ECF3134CD07250 /* Pods-qiitaApiApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQP7L55495;
+				INFOPLIST_FILE = qiitaApiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.to.qiitaApiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52ED8B1925B1304800D67782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC5253D89905493365F9E5B /* Pods-qiitaApiAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQP7L55495;
+				INFOPLIST_FILE = qiitaApiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.to.qiitaApiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiitaApiApp.app/qiitaApiApp";
+			};
+			name = Debug;
+		};
+		52ED8B1A25B1304800D67782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4CAE66C88E5FE33BC645B1 /* Pods-qiitaApiAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQP7L55495;
+				INFOPLIST_FILE = qiitaApiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.to.qiitaApiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiitaApiApp.app/qiitaApiApp";
+			};
+			name = Release;
+		};
+		52ED8B1C25B1304800D67782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04368AFCB61D934C3ACCD6F4 /* Pods-qiitaApiApp-qiitaApiAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQP7L55495;
+				INFOPLIST_FILE = qiitaApiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.to.qiitaApiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qiitaApiApp;
+			};
+			name = Debug;
+		};
+		52ED8B1D25B1304800D67782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3DF55DF861E0A48444BAEE /* Pods-qiitaApiApp-qiitaApiAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQP7L55495;
+				INFOPLIST_FILE = qiitaApiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.to.qiitaApiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qiitaApiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ED8AE625B1304400D67782 /* Build configuration list for PBXProject "qiitaApiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED8B1325B1304800D67782 /* Debug */,
+				52ED8B1425B1304800D67782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ED8B1525B1304800D67782 /* Build configuration list for PBXNativeTarget "qiitaApiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED8B1625B1304800D67782 /* Debug */,
+				52ED8B1725B1304800D67782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ED8B1825B1304800D67782 /* Build configuration list for PBXNativeTarget "qiitaApiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED8B1925B1304800D67782 /* Debug */,
+				52ED8B1A25B1304800D67782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ED8B1B25B1304800D67782 /* Build configuration list for PBXNativeTarget "qiitaApiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED8B1C25B1304800D67782 /* Debug */,
+				52ED8B1D25B1304800D67782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52ED8AE325B1304400D67782 /* Project object */;
+}
