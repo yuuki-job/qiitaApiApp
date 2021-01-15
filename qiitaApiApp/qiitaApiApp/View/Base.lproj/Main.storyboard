@@ -71,6 +71,21 @@
             </objects>
             <point key="canvasLocation" x="686.95652173913049" y="80.357142857142847"/>
         </scene>
+        <!--Display Web View Controller-->
+        <scene sceneID="07S-Zg-ero">
+            <objects>
+                <viewController storyboardIdentifier="displayWebVC" id="jQb-6X-wP8" customClass="DisplayWebViewController" customModule="qiitaApiApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RIn-Zv-pJb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mNE-Zo-Jvg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcv-i0-Nen" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1497.1014492753625" y="83.705357142857139"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="vPz-oc-Klg">
             <objects>

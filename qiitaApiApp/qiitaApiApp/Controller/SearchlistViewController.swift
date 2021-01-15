@@ -77,6 +77,14 @@ extension SearchlistViewController:UITableViewDelegate,UITableViewDataSource{
         
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let displayWebVC = self.storyboard?.instantiateViewController(identifier: "displayWebVC") as! DisplayWebViewController
+        if let webUrl = qiitaData[indexPath.row].website_url{
+            displayWebVC.receiveData = webUrl
+            
+            navigationController?.pushViewController(displayWebVC, animated: true)
+        }
+    }
     
     
     
