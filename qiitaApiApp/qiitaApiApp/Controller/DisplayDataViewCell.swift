@@ -27,7 +27,9 @@ class DisplayDataViewCell: UITableViewCell {
     }
     func cellSetUp(qiitaData:QiitaData){
         
-        
+        titleLabel.text = qiitaData.title
+        userNameLabel.text = qiitaData.userName
+        likeCountLabel.text = String(qiitaData.likeCount ?? 0)
         
         
     }
